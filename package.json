@@ -1,0 +1,24 @@
+{
+  "name": "remove-diacritical-marks",
+  "version": "1.0.0",
+  "description": "Remove diacritical marks from string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/papasavvas/remove-diacritical-marks.git"
+  },
+  "keywords": [
+    "diacritics",
+    "accents",
+    "greek"
+  ],
+  "author": "Alexandros Papasavva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/papasavvas/remove-diacritical-marks/issues"
+  },
+  "homepage": "https://github.com/papasavvas/remove-diacritical-marks#readme"
+}

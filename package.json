@@ -6,6 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "nyc --reporter=lcov --reporter=text ./node_modules/.bin/mocha --require ts-node/register --extensions ts -recursive ./test/*.ts",
+    "coverage": "codecov -t $CODECOV_TOKEN",
     "lint": "eslint . --fix",
     "build": "tsc"
   },

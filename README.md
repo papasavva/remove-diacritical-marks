@@ -2,7 +2,6 @@
 
 [![Build Status](https://travis-ci.com/papasavvas/remove-diacritical-marks.svg?branch=main)](https://travis-ci.com/papasavvas/remove-diacritical-marks)
 [![codecov](https://codecov.io/gh/papasavvas/remove-diacritical-marks/branch/main/graph/badge.svg?token=PJYDUFN0DN)](undefined)
-![npm](https://img.shields.io/npm/dm/remove-diacritical-marks)
 ![npm](https://img.shields.io/npm/v/remove-diacritical-marks)
 ![NPM](https://img.shields.io/npm/l/remove-diacritical-marks?color=blue)
 
@@ -10,12 +9,12 @@
 An npm module to remove the diacritical marks from characters in a text. The covered range is 0300 to 036F of the  [Unicode Standard](https://unicode.org/charts/PDF/U0300.pdf).
 It supports multiple languages.
 
-##Installation:
+## Installation:
 ```js
 npm install remove-diacritical-marks
 ```
 
-##Usage:
+## Usage:
 ### Javascript
 ```js
 const removeDiacriticalMarks = require('remove-diacritical-marks')
